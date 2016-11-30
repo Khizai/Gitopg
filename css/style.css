@@ -1,11 +1,11 @@
-﻿#mainHeader{
+#mainHeader{
 	background-image: url("../img/jumbotronbackground.jpg");
 	background-position: 0px 30%;
 	background-repeat: no-repeat;
 	background-size: 100%;
 } 
 
-h1{
+ header h1{
 	padding: 50px 0 0 0;
 	font-size: 4.5em;
 	color: white;
@@ -17,7 +17,15 @@ h1{
 	padding-bottom: 40px;
 }
 
-h4 {
+.destination {
+	background: #EEEEEE;
+}
+
+.destination a{
+	color: #337ab7;
+}
+
+nav h4 {
 	padding-top: 5px;
 	color: darkgray;
 }
@@ -32,8 +40,23 @@ nav ul li a{
 	color: darkgray;
 }
 
+main {
+	text-align: center;
+}
+
 section {
 	padding: 35px 0px;
+}
+
+#map {
+	width:500px;
+	height:500px;
+	width: 100%;
+	margin: auto;
+}
+
+footer{
+	padding-top: 30px;
 }
 
 footer p {
