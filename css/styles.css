@@ -1,1 +1,7 @@
-﻿
+﻿#mainHeader{
+	background-image: url("../img/jumbotronbackground.jpg")
+}
+
+h1{
+	padding: 50px;
+}
