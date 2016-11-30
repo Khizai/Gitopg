@@ -1,5 +1,7 @@
 ﻿#mainHeader{
-	background-image: url("../img/jumbotronbackground.jpg")
+	background-image: url("../img/jumbotronbackground.jpg");
+	background-position: 0px -250px;
+	background-size: 100%;
 }
 
 h1{
@@ -27,4 +29,12 @@ h4 {
 nav ul li a{
 	text-align: right;
 	color: darkgray;
+}
+
+section {
+	padding: 35px 0px;
+}
+
+footer p {
+	text-align: center;
 }
