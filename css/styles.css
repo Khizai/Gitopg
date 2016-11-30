@@ -3,5 +3,28 @@
 }
 
 h1{
-	padding: 50px;
+	padding: 50px 0 0 0;
+	font-size: 4.5em;
+	color: white;
+}
+
+#rejse {
+	font-size: 2em;
+	color: white;
+	padding-bottom: 40px;
+}
+
+h4 {
+	padding-top: 5px;
+	color: darkgray;
+}
+
+.noPadding {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+nav ul li a{
+	text-align: right;
+	color: darkgray;
 }
