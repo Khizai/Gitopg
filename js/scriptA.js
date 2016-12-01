@@ -32,4 +32,41 @@
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
-})
+
+	// var arrayb = jQuery.makeArray("B.jpg", "B2.jpg", "B3.jpg")
+
+	// $("img").on("click", function(){
+	// 	for (var i; i < arrayb.length; i++) {
+	// 		$('<div class="item"><img src="'+arrayb[i]+'"></div>').appendTo('.carousel-inner');
+	// 		$('<li data-target="#carousel-example-generic" data-slide-to="'+i+'"></li>').appendTo('.carousel-indicators')
+	// 	};
+	// })
+
+ 	// $("img").on("click", function(){
+
+ 	// 		$(".carousel-inner").prepend("<div class="item">").prepend("<img src="B"/>").appendTo(".carousel-inner");
+
+ 	// });
+$("#Beijing").on("click", function(){
+	$(".item").find("img").remove();
+	$('.item1').prepend('<img src="img/B.jpg"/>');
+	$('.item2').prepend('<img src="img/B2.jpg"/>');
+	$('.item3').prepend('<img src="img/B3.jpg"/>');
+});
+
+$("#NewYork").on("click", function(){
+	$(".item").find("img").remove();
+	$('.item1').prepend('<img src="img/NY.jpg"/>');
+	$('.item2').prepend('<img src="img/NYS.jpg"/>');
+	$('.item3').prepend('<img src="img/NYV.jpg"/>');
+});
+
+$("#Paris").on("click", function(){
+	$(".item").find("img").remove();
+	$('.item1').prepend('<img src="img/P.jpg"/>');
+	$('.item2').prepend('<img src="img/P2.jpg"/>');
+	$('.item3').prepend('<img src="img/P3.jpg"/>');
+});
+
+
+});
