@@ -1,0 +1,119 @@
+.noPadding {
+padding-right: 0;
+	padding-left: 0;
+}
+#mainHeader{
+	background-image: url("../img/jumbotronbackground.jpg");
+	background-position: 0px 30%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+h1{
+	padding: 50px 0 0 0;
+	font-size: 4.5em;
+	color: white;
+}
+nav ul li a{
+	text-align: right;
+	color: darkgray;
+}
+#rejse {
+	font-size: 2em;
+	color: white;
+	padding-bottom: 40px;
+}
+
+h4 {
+	color: darkgray;
+	padding: 5px;
+}
+h2 {
+	color: gray;
+	font-size: 3em;
+text-align: center;
+}
+
+iframe {
+	height: 400px;
+	width: 500px;
+	float: right;
+
+}
+
+input[type=name] {
+	width: 50%;
+	
+	}
+input[type=email]
+{
+	width: 50%;
+}
+textarea.form-control {
+	width: 50%;
+	resize:none;
+}
+
+@media screen and (max-width:380px) {
+
+	.container {
+		width: 100%;
+	
+	}	
+	
+	iframe {
+		height: 250px;
+		max-width: 100%;
+	}
+	label {
+		font-size: 1.5em;
+	}
+	input[type=email] {
+		margin: 0;
+		width: 100%;
+	}
+	 input[type=name] {
+	width: 100%;
+	
+	}
+	textarea.form-control {
+	width: 100%;
+}
+	
+	#rejse 
+	 {
+		font-size: 15px;
+	 }
+	 h1 {
+	 	padding: 0;
+		font-size: 25px
+
+	 }
+
+
+}
+
+
+@media screen and (max-width:1000px) {
+	iframe {
+		width: 940px;
+		margin-bottom: 50px;
+	}
+	.form-group {
+		margin-top: 50px;
+	}
+
+	
+textarea.form-control {
+	width: 100%;
+}
+input[type=name] {
+	width: 100%;
+	
+	}
+	input[type=email] {
+		
+		width: 100%;
+	}
+}
+
+
