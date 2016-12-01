@@ -22,7 +22,7 @@
 }
 
 .destination a{
-	color: #337ab7;
+	color: #23527c;
 }
 
 nav h4 {
@@ -48,17 +48,31 @@ section {
 	padding: 35px 0px;
 }
 
-#map {
-	width:500px;
-	height:500px;
-	width: 100%;
-	margin: auto;
-}
-
 footer{
 	padding-top: 30px;
 }
 
 footer p {
 	text-align: center;
+}
+
+.destinationer img {
+	width: 100%;
+	height: auto;
+}
+
+main article img {
+	margin-top: 50px;
+}
+
+.destinationer a {
+	text-decoration: none;
+	color: black;
+}
+
+.destinationer img {
+	opacity: 0.8;
+}
+.destinationer article:hover img{
+	opacity: 1;
 }

@@ -5,13 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootstrap 101 Template</title>
+	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css">
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-	<!-- Google Maps -->
-	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 </head>
 <body>
 	<nav class="container">
@@ -20,6 +17,9 @@
 			<li role="presentation" class="active noPadding pull-right"><a href="#" class"noPadding">Kontakt</a></li>
 			<li role="presentation" class="noPadding pull-right destination"><a href="#" class"noPadding">Destinationer</a></li>
 			<li role="presentation" class="noPadding pull-right"><a href="#" class"noPadding">Aktuelle tilbud</a></li>
+			<li class="active noPadding pull-right">
+				<a href="index.html">Hjem</a>
+			</li>
 		</ul>
 	</nav>
 	<header class="container-fluid" id="mainHeader">
@@ -28,33 +28,56 @@
 			<p id="rejse">At rejse er at leve</p>
 		</div>
 	</header>
-
-	<main class="col-md-12">
-		<article class="col-md-6">
-			<h4 class>Kontakt os</h4>
-			<p><i class="fa fa-phone" aria-hidden="true"></i> Telefon 70 11 47 11</p>
-		</article>
-		<article class="col-md-6">
-			<h4>Adresse</h4>
-			<p><i class="fa fa-map-marker" aria-hidden="true"></i> Teglgårdsvej 6A, 7620 Lemvig</p>
-		</article>
-		<article>
-			<div id="map"></div>
-			<article class="col-md-12">
-				
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2199.032719415252!2d8.308408716258315!3d56.55329308077498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464a23df7c39292b%3A0x9efe87a4228f7132!2sTeglg%C3%A5rdsvej+6A%2C+7620+Lemvig!5e0!3m2!1sda!2sdk!4v1480513117205" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-</article>
-
-
-
-
-</article>
-</main>
-<footer class="col-md-12">
-	<p>Copyright &copy 2016 Klement Johansen</p>
-</footer>
-
+	<main>
+		<div class="col-md-12 destinationer">
+			<article class="col-md-4 col-lg-4 ">
+				<a href="#">
+					<img src="img/london.jpg" alt="" class="c">
+					<h1>London</h1>
+					<h4>Pris: 12.000 kr.</h4>
+				</a>
+			</article>
+			<article class="col-md-4 col-lg-4 ">
+				<a href="#">
+					<img src="img/new_york.jpg" alt="" class="">
+					<h1>New York</h1>
+					<h4>Pris: 12.000 kr.</h4>
+				</a>
+			</article >
+			<article class="col-md-4 col-lg-4 ">
+				<a href="#">
+					<img src="img/tokyo.jpg" alt="">
+					<h1>Tokyo</h1>
+					<h4>Pris: 12.000 kr.</h4>
+				</a>
+			</article>
+		</div>
+		<div class="col-md-12 destinationer">
+			<article class="col-md-4 col-lg-4 ">
+				<a href="#">
+					<img src="img/hamburg.jpg" alt="">
+					<h1>Hamburg</h1>
+					<h4>Pris: 12.000 kr.</h4>
+				</a>
+			</article>
+			<article class="col-md-4 col-lg-4 ">
+				<a href="#">
+					<img src="img/oslo.jpg" alt="">
+					<h1>Oslo</h1>
+					<h4>Pris: 12.000 kr.</h4>
+				</a>
+			</article>
+			<article class="col-md-4 col-lg-4 ">
+				<a href="#">
+					<img src="img/stockholm.jpg" alt="">
+					<h1>Stockholm</h1>
+					<h4>Pris: 12.000 kr.</h4>
+				</a>
+			</article>
+		</div>
+	</main>
+	<footer class="col-md-12">
+		<p>Copyright &copy 2016 Klement Johansen</p>
+	</footer>
 </body>
-
 </html>
